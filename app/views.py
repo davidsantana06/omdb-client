@@ -22,6 +22,8 @@ _STYLE = """
             justify-content: center;
         }
 
+        footer { text-align: center; }
+
         hr { visibility: hidden !important; }
 
         table { width: 100%; }
@@ -121,10 +123,10 @@ def render_main() -> None:
 def render_footer() -> None:
     st.markdown(
         f"""
-        <div style="text-align: center;">
+        <footer>
             Made with 💪 by <a href="{AUTHOR_URL}">{AUTHOR_NAME}</a> • 
             Powered by <a href="{OMDB_API_URL}">OMDb API</a>
-        </div>
+        </footer>
         """,
         unsafe_allow_html=True,
     )
