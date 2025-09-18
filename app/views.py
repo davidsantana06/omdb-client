@@ -2,7 +2,7 @@ from pandas import DataFrame
 import streamlit as st
 
 from .enums import ContentType
-from .secrets import IMDB_TITLE_URL, OMDB_API_KEY, OMDB_API_URL
+from .secrets import AUTHOR_NAME, AUTHOR_URL, IMDB_TITLE_URL, OMDB_API_KEY, OMDB_API_URL
 from .services import MAX_MEDIA_PER_GET, get_media
 from .types import ContentType, Media
 
@@ -120,10 +120,10 @@ def render_main() -> None:
 
 def render_footer() -> None:
     st.markdown(
-        """
+        f"""
         <div style="text-align: center;">
-            Made with 💪 by <a href="https://github.com/davidsantana06">davidsantana06</a> • 
-            Powered by <a href="https://www.omdbapi.com/">OMDb API</a>
+            Made with 💪 by <a href="{AUTHOR_URL}">{AUTHOR_NAME}</a> • 
+            Powered by <a href="{OMDB_API_URL}">OMDb API</a>
         </div>
         """,
         unsafe_allow_html=True,

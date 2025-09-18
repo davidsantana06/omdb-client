@@ -1,9 +1,9 @@
 import streamlit as st
 
 
-AUTHOR_NAME = st.secrets.get("AUTHOR_NAME")
+AUTHOR_NAME = "davidsantana06"
 
-AUTHOR_URL = st.secrets.get("AUTHOR_URL")
+AUTHOR_URL = "https://davidsantana06.github.io/?h=game"
 
 OMDB_API_URL = st.secrets.get("OMDB_API_URL")
 
