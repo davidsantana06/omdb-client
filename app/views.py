@@ -16,29 +16,26 @@ _STYLE = """
         }
         a:hover { font-weight: 700; }
 
-        div.stSpinner > div {
-            text-align:center;
-            align-items: center;
-            justify-content: center;
-        }
-
         footer { text-align: center; }
 
         hr { visibility: hidden !important; }
 
-        table { width: 100%; }
-        tr:first-child { border: none!important ; }
+        table {
+            font-size: 14px;
+            width: 100%;
+        }
+        tr:first-child { border: none !important; }
         th, td { border: none !important; }
         /* Poster */
-        th:nth-child(1), td:nth-child(1) { width: 15%; text-align: center; }
+        th:nth-child(1), td:nth-child(1) { width: 27.5%; text-align: center; }
         /* Title */
-        th:nth-child(2), td:nth-child(2) { width: 40%; }
+        th:nth-child(2), td:nth-child(2) { width: 35%; }
         /* Year */
-        th:nth-child(3), td:nth-child(3) { width: 15%; text-align: center; }
+        th:nth-child(3), td:nth-child(3) { width: 22.5%; text-align: center; }
         /* Type */
-        th:nth-child(4), td:nth-child(4) { width: 15%; text-align: center; }
+        th:nth-child(4), td:nth-child(4) { width: 7.5%; text-align: center; }
         /* IMDb */
-        th:nth-child(5), td:nth-child(5) { width: 15%; text-align: center; }
+        th:nth-child(5), td:nth-child(5) { width: 7.5%; text-align: center; }
 
         .warning {
             background-color: #FEF3C7;
@@ -86,7 +83,7 @@ def render_main() -> None:
         return content_type.capitalize()
 
     def render_imdb_td(imdb_id: str) -> str:
-        return f'<a href="{IMDB_TITLE_URL}{imdb_id}" target="_blank">🔗 View</a>'
+        return f'<a href="{IMDB_TITLE_URL}{imdb_id}" target="_blank">View</a>'
 
     def render_warning(message: str) -> None:
         st.markdown(
