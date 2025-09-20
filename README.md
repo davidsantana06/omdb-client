@@ -1,10 +1,10 @@
-**🎬 OMDb Client** is a web app to search movies, series, and episodes by title using the **OMDb API**. It displays basic info like year, type, and poster.
-
 <img
   src="./assets/usage.gif"
   alt="OMDb Client — Usage"
   style="width: 100%"
 />
+
+**🎬 OMDb Client** is a web application that allows searching for movies, series, and episodes by title through the **OMDb API**. For each result, it displays the poster, title, year, type, and a reference link to IMDb.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -45,8 +45,6 @@ If you like this project and want to support it financially, you can contribute 
 
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-1040C1?labelColor=121661&style=for-the-badge&logo=paypal&link=https://www.paypal.com/donate/?hosted_button_id=2P9HPGUP7Z43S)](https://www.paypal.com/donate/?hosted_button_id=2P9HPGUP7Z43S)
 [![Pix](https://img.shields.io/badge/Pix-Doar-FBB88A?labelColor=F26722&style=for-the-badge&logo=pix&logoColor=ffffff&link=https://tipa.ai/davidsantana06)](https://tipa.ai/davidsantana06)
-
-This and other projects on my profile were developed independently. Any support to keep them going is greatly appreciated!
 
 ## ⚖️ License
 
