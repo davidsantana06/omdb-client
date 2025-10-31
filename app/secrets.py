@@ -3,7 +3,7 @@ import streamlit as st
 
 AUTHOR_NAME = "davidsantana06"
 
-AUTHOR_URL = "https://davidsantana06.github.io/?h=game"
+AUTHOR_URL = "https://github.com/davidsantana06"
 
 OMDB_API_URL = st.secrets.get("OMDB_API_URL")
 
